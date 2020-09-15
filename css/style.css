@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+header{
+	width:100%;
+	background: #000;
+}
+
+/*navbar css code start*/
+.navbar{
+	padding: 20px;
+}
+.nav-item{
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+
+}
+.nav-link{
+	color:white !important;
+	transition: 0.5s ease-in-out;
+
+}
+.nav-link:hover{
+	color: #ff8b38 !important;
+	transition: 0.5s ease-in-out;
+}
+
+
+ /*banner section start from here */
+.banner{
+	width:100%;
+	background: url(../img/banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+
+}
+
+/*social section 1 astart here*/
+
+.social-section{
+	width:100%;
+	padding: 20px 0;
+}
+.social-section col-md-5{}
+.social-section col-md-7{}
+.social-section ul{
+	text-align: right;
+	    padding-top: 40px;
+}
+.social-section ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 25px;
+
+}
+.social-section ul li a{
+
+}
+.social-section ul li a i{
+	font-size: 25px;
+    padding: 10px;
+    color:#cccccc;
+}
+
+
+/*feature section 1 astart here*/
+.feature1{
+	width: 100%;
+	background:#f5f5f5;
+	padding: 50px 0;
+}
+.feature1 .row{
+	padding: 0 35px;
+}
+.feature1 .col-md-2{
+	display:flex;
+	align-items: center;
+}
+.feature1 .col-md-6{
+    padding-top: 30px;
+}
+.feature1 ul li{
+    width: 60px;
+    list-style: none;
+    background: tomato;
+    border-bottom: 1px solid white;
+    height: 60px;
+    line-height: 60px;
+
+}
+.feature1 .col-md-6 img{
+	padding-top: 15px;
+}
